@@ -1,0 +1,49 @@
+.profile-container {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    max-width: 600px;
+    margin: auto;
+    margin-top: 200px;
+    padding: 20px;
+    box-sizing: border-box;
+    border-color: aquamarine;
+    background-color: #f0f0f0;
+    /* light gray */
+}
+
+.profile-label {
+    display: block;
+    margin-bottom: 10px;
+    color: #333;
+    /* dark gray */
+}
+
+.profile-input {
+    width: 100%;
+    padding: 10px;
+    box-sizing: border-box;
+    border-radius: 5px;
+    /* rounded corners */
+    border: 1px solid #ccc;
+    /* light gray border */
+}
+
+.profile-button {
+    display: block;
+    margin-top: 20px;
+    padding: 10px;
+    color: white;
+    /* white text */
+    background-color: #007BFF;
+    /* blue background */
+    border: none;
+    border-radius: 5px;
+    /* rounded corners */
+    cursor: pointer;
+}
+
+.profile-button:hover {
+    background-color: #0056b3;
+    /* darker blue on hover */
+}
